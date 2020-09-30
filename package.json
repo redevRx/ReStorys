@@ -1,0 +1,46 @@
+{
+  "name": "re-app",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "chart.js": "^2.7.2",
+    "firebase": "^7.21.1",
+    "quill": "^1.3.6",
+    "shards-ui": "^2.1.0",
+    "shards-vue": "^1.0.4",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.4",
+    "vue-toastification": "^1.7.8",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.1.0",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-router": "^4.5.6",
+    "@vue/cli-plugin-vuex": "^4.5.6",
+    "@vue/cli-service": "^3.12.1",
+    "@vue/eslint-config-airbnb": "^5.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.9.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "plugin:vue/essential",
+      "plugin:prettier/recommended",
+      "eslint:recommended"
+    ]
+  }
+}
